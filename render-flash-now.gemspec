@@ -23,11 +23,13 @@ Gem::Specification.new do |spec|
   end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|test|spec|features)/}) }
+  spec.test_files = Dir["spec/**/*"]
   spec.require_paths = ["lib"]
 
   spec.add_dependency "actionpack", ">= 3.0"
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rails"
+  spec.add_development_dependency "rspec-rails"
 end
