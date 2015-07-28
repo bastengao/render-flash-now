@@ -1,5 +1,7 @@
 # render-flash-now
 
+[![Build Status](https://travis-ci.org/bastengao/render-flash-now.svg)](https://travis-ci.org/bastengao/render-flash-now)
+
 Render with flash inline.
 
 ## Installation
