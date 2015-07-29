@@ -18,3 +18,9 @@ Completed 200 OK in 130ms (Views: 129.9ms)
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 126ms (Views: 125.3ms)
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 139ms (Views: 138.9ms)
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 136ms (Views: 136.1ms)

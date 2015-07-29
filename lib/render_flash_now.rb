@@ -1,6 +1,5 @@
 require 'render_flash_now/version'
-require 'render_flash_now/flash'
+require 'render_flash_now/render_flash'
 require 'active_support/concern'
-require 'action_controller/metal/flash'
 
-ActionController::Flash.send :include, RenderFlashNow::Flash
+ActionController::Base.send :include, RenderFlashNow::RenderFlash
