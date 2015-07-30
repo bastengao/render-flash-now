@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 render 'your_page', notice: 'Flash just like redirect_to'
 
 # instead of these
